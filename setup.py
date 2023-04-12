@@ -7,8 +7,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="time_utils",  # 项目名称，保证它的唯一性，不要跟已存在的包名冲突即可
-    version="1.1.0",  # 程序版本
+    name="time_util_wj",  # 项目名称，保证它的唯一性，不要跟已存在的包名冲突即可
+    version="1.0.2",  # 程序版本
     py_modules=['time_utils'],
     author="WangJie",  # 项目作者
     author_email="1641540482@qq.com",  # 作者邮件
