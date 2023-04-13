@@ -3,13 +3,13 @@
 # 安装
 
 ```python
-pip install time_utils
+pip install time-util-wj
 ```
 
 # 使用
 
 ```python
-from time_utils import TimeUtil
+from time_util_wj import TimeUtil
 
 print(TimeUtil.get_current_time_str())  ###获取当前字符串格式化时间
 print(TimeUtil.get_current_time_unix())  ###获取当前时间戳

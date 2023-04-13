@@ -8,8 +8,8 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="time_util_wj",  # 项目名称，保证它的唯一性，不要跟已存在的包名冲突即可
-    version="1.0.2",  # 程序版本
-    py_modules=['time_utils'],
+    version="1.0.4",  # 程序版本
+    py_modules=['time_util_wj'], # 需要上传的模块名称，这样可以让这些模块直接import导入
     author="WangJie",  # 项目作者
     author_email="1641540482@qq.com",  # 作者邮件
     description="提供了各种时间转换的方法",  # 项目的一句话描述
